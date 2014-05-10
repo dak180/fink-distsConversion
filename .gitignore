@@ -1,1 +1,6 @@
 fink-mirror/
+fink-git/
+fink-checkout/
+*.fi
+*.fo
+*.bak
