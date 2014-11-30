@@ -3,4 +3,5 @@ fink-git/
 fink-checkout/
 *.fi
 *.fo
+*.cvs
 *.bak
