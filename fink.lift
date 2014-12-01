@@ -1,3 +1,132 @@
 version 3
 coalesce # default is 90 sec
 tag start delete
+
+# all the lilypond tags
+tag lilypond-1_8_1 delete
+tag lilypond-1_9_1 delete
+tag lilypond-2_0_3 delete
+tag lilypond-2_10_14 delete
+tag lilypond-2_11_14 delete
+tag lilypond-2_2_0 delete
+tag lilypond-2_2_6 delete
+tag lilypond-2_3_1 delete
+tag lilypond-2_3_10 delete
+tag lilypond-2_3_11 delete
+tag lilypond-2_3_12 delete
+tag lilypond-2_3_13 delete
+tag lilypond-2_3_15 delete
+tag lilypond-2_3_16 delete
+tag lilypond-2_3_18 delete
+tag lilypond-2_3_19 delete
+tag lilypond-2_3_20 delete
+tag lilypond-2_3_21 delete
+tag lilypond-2_3_22 delete
+tag lilypond-2_3_25 delete
+tag lilypond-2_3_26 delete
+tag lilypond-2_3_3 delete
+tag lilypond-2_3_4 delete
+tag lilypond-2_3_5 delete
+tag lilypond-2_3_6 delete
+tag lilypond-2_3_7 delete
+tag lilypond-2_3_8 delete
+tag lilypond-2_3_9 delete
+tag lilypond-2_3_9-2 delete
+tag lilypond-2_4_0 delete
+tag lilypond-2_5_18 delete
+tag lilypond-2_5_19 delete
+tag lilypond-2_5_20 delete
+tag lilypond-2_5_22 delete
+tag lilypond-2_5_23 delete
+tag lilypond-2_6_0 delete
+tag lilypond-2_6_1 delete
+tag lilypond-2_6_3 delete
+tag lilypond-2_7_0 delete
+tag lilypond-2_7_10 delete
+tag lilypond-2_7_11 delete
+tag lilypond-2_7_28 delete
+tag lilypond-2_7_38 delete
+tag lilypond-2_7_39 delete
+tag lilypond-2_7_4 delete
+tag lilypond-2_7_40 delete
+tag lilypond-2_7_9 delete
+tag lilypond-2_8_0 delete
+tag lilypond-2_8_2 delete
+tag lilypond-2_9_4 delete
+
+# pangocairo tags
+# tag pangocairo-post-merge delete
+# tag pangocairo-pre-merge delete
+# tag pangocairo-root delete
+tag pangocairo-root-10 delete
+tag pangocairo-root-11 delete
+tag pangocairo-root-12 delete
+tag pangocairo-root-13 delete
+tag pangocairo-root-14 delete
+tag pangocairo-root-15 delete
+tag pangocairo-root-16 delete
+tag pangocairo-root-17 delete
+tag pangocairo-root-18 delete
+tag pangocairo-root-19 delete
+tag pangocairo-root-2 delete
+tag pangocairo-root-20 delete
+tag pangocairo-root-21 delete
+tag pangocairo-root-22 delete
+tag pangocairo-root-23 delete
+tag pangocairo-root-24 delete
+tag pangocairo-root-25 delete
+tag pangocairo-root-26 delete
+tag pangocairo-root-27 delete
+tag pangocairo-root-28 delete
+tag pangocairo-root-29 delete
+tag pangocairo-root-3 delete
+tag pangocairo-root-30 delete
+tag pangocairo-root-31 delete
+tag pangocairo-root-32 delete
+tag pangocairo-root-33 delete
+tag pangocairo-root-34 delete
+tag pangocairo-root-35 delete
+tag pangocairo-root-36 delete
+tag pangocairo-root-37 delete
+tag pangocairo-root-38 delete
+tag pangocairo-root-39 delete
+tag pangocairo-root-4 delete
+tag pangocairo-root-40 delete
+tag pangocairo-root-41 delete
+tag pangocairo-root-42 delete
+tag pangocairo-root-43 delete
+tag pangocairo-root-44 delete
+tag pangocairo-root-45 delete
+tag pangocairo-root-5 delete
+tag pangocairo-root-6 delete
+tag pangocairo-root-7 delete
+tag pangocairo-root-8 delete
+tag pangocairo-root-9 delete
+
+# Release tags
+# tag release_0_5_0 delete
+# tag release_0_5_0a delete
+# tag release_0_5_1 delete
+# tag release_0_5_2 delete
+# tag release_0_5_3 delete
+# tag release_0_5_4 delete
+# tag release_0_6_0 delete
+# tag release_0_6_1 delete
+# tag release_0_6_2 delete
+# tag release_0_6_3 delete
+# tag release_0_6_4 delete
+# tag release_0_7_0 delete
+# tag release_0_7_1 delete
+# tag release_0_7_2 delete
+# tag release_0_7_2_1 delete
+# tag release_0_8_0 delete
+# tag release_0_8_1 delete
+# tag release_0_8_1_1 delete
+# tag release_0_9_0 delete
+# tag release_0_9_0_1 delete
+# tag release_0_9_0_2 delete
+# tag release_0_9_0_3 delete
+
+# buildfink tags
+# tag buildfink_2008_07_28 delete
+# tag buildfink_2008_09_18 delete
