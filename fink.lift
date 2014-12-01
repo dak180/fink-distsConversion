@@ -1,2 +1,3 @@
-coalesce
+version 3
+coalesce # default is 90 sec
 tag start delete
