@@ -114,7 +114,7 @@ gitk: $(PROJECT)-git
 # This repack call is the active part of gc --aggressive.  This call is
 # tuned for very large repositories.
 gc: $(PROJECT)-git
-	cd $(PROJECT)-git; time git -c pack.threads=1 repack -AdF --window=1250 --depth=250
+	cd $(PROJECT)-git; time git -c pack.threads=0 repack -AdF --window=1250 --depth=250
 
 # Make a conversion using a competing tool
 $(PROJECT)-git-svn:
