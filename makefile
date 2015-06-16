@@ -43,7 +43,7 @@ $(PROJECT)-$(TARGET_VCS): $(PROJECT).fi
 
 # Build the second-stage fast-import stream from the first-stage stream dump
 $(PROJECT).fi: $(PROJECT).$(SOURCE_VCS) $(PROJECT).lift $(PROJECT).map $(EXTRAS)
-	$(REPOSURGEON) $(VERBOSITY) "read <$(PROJECT).$(SOURCE_VCS)" "authors read <$(PROJECT).map" "prefer git" "script $(PROJECT).lift" "fossils write >$(PROJECT).fo" "write >$(PROJECT).fi"
+	$(REPOSURGEON) $(VERBOSITY) "read <$(PROJECT).$(SOURCE_VCS)" "authors read <$(PROJECT).map" "prefer git" "script $(PROJECT).lift" "legacy write >$(PROJECT).fo" "write >$(PROJECT).fi"
 
 # Force rebuild of first-stage stream from the local mirror on the next make
 local-clobber: clean

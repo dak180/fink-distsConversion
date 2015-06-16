@@ -2,131 +2,135 @@ version 3
 coalesce # default is 90 sec
 tag start delete
 
+# other tags
+branch import-1.1.1 delete
+branch branch_0_6_3 delete
+
 # all the lilypond tags
-tag lilypond-1_8_1 delete
-tag lilypond-1_9_1 delete
-tag lilypond-2_0_3 delete
-tag lilypond-2_10_14 delete
-tag lilypond-2_11_14 delete
-tag lilypond-2_2_0 delete
-tag lilypond-2_2_6 delete
-tag lilypond-2_3_1 delete
-tag lilypond-2_3_10 delete
-tag lilypond-2_3_11 delete
-tag lilypond-2_3_12 delete
-tag lilypond-2_3_13 delete
-tag lilypond-2_3_15 delete
-tag lilypond-2_3_16 delete
-tag lilypond-2_3_18 delete
-tag lilypond-2_3_19 delete
-tag lilypond-2_3_20 delete
-tag lilypond-2_3_21 delete
-tag lilypond-2_3_22 delete
-tag lilypond-2_3_25 delete
-tag lilypond-2_3_26 delete
-tag lilypond-2_3_3 delete
-tag lilypond-2_3_4 delete
-tag lilypond-2_3_5 delete
-tag lilypond-2_3_6 delete
-tag lilypond-2_3_7 delete
-tag lilypond-2_3_8 delete
-tag lilypond-2_3_9 delete
-tag lilypond-2_3_9-2 delete
-tag lilypond-2_4_0 delete
-tag lilypond-2_5_18 delete
-tag lilypond-2_5_19 delete
-tag lilypond-2_5_20 delete
-tag lilypond-2_5_22 delete
-tag lilypond-2_5_23 delete
-tag lilypond-2_6_0 delete
-tag lilypond-2_6_1 delete
-tag lilypond-2_6_3 delete
-tag lilypond-2_7_0 delete
-tag lilypond-2_7_10 delete
-tag lilypond-2_7_11 delete
-tag lilypond-2_7_28 delete
-tag lilypond-2_7_38 delete
-tag lilypond-2_7_39 delete
-tag lilypond-2_7_4 delete
-tag lilypond-2_7_40 delete
-tag lilypond-2_7_9 delete
-tag lilypond-2_8_0 delete
-tag lilypond-2_8_2 delete
-tag lilypond-2_9_4 delete
+branch lilypond-1_8_1 delete
+branch lilypond-1_9_1 delete
+branch lilypond-2_0_3 delete
+branch lilypond-2_10_14 delete
+branch lilypond-2_11_14 delete
+branch lilypond-2_2_0 delete
+branch lilypond-2_2_6 delete
+branch lilypond-2_3_1 delete
+branch lilypond-2_3_10 delete
+branch lilypond-2_3_11 delete
+branch lilypond-2_3_12 delete
+branch lilypond-2_3_13 delete
+branch lilypond-2_3_15 delete
+branch lilypond-2_3_16 delete
+branch lilypond-2_3_18 delete
+branch lilypond-2_3_19 delete
+branch lilypond-2_3_20 delete
+branch lilypond-2_3_21 delete
+branch lilypond-2_3_22 delete
+branch lilypond-2_3_25 delete
+branch lilypond-2_3_26 delete
+branch lilypond-2_3_3 delete
+branch lilypond-2_3_4 delete
+branch lilypond-2_3_5 delete
+branch lilypond-2_3_6 delete
+branch lilypond-2_3_7 delete
+branch lilypond-2_3_8 delete
+branch lilypond-2_3_9 delete
+branch lilypond-2_3_9-2 delete
+branch lilypond-2_4_0 delete
+branch lilypond-2_5_18 delete
+branch lilypond-2_5_19 delete
+branch lilypond-2_5_20 delete
+branch lilypond-2_5_22 delete
+branch lilypond-2_5_23 delete
+branch lilypond-2_6_0 delete
+branch lilypond-2_6_1 delete
+branch lilypond-2_6_3 delete
+branch lilypond-2_7_0 delete
+branch lilypond-2_7_10 delete
+branch lilypond-2_7_11 delete
+branch lilypond-2_7_28 delete
+branch lilypond-2_7_38 delete
+branch lilypond-2_7_39 delete
+branch lilypond-2_7_4 delete
+branch lilypond-2_7_40 delete
+branch lilypond-2_7_9 delete
+branch lilypond-2_8_0 delete
+branch lilypond-2_8_2 delete
+branch lilypond-2_9_4 delete
 
 # pangocairo tags
-# tag pangocairo-post-merge delete
-# tag pangocairo-pre-merge delete
-# tag pangocairo-root delete
-tag pangocairo-root-10 delete
-tag pangocairo-root-11 delete
-tag pangocairo-root-12 delete
-tag pangocairo-root-13 delete
-tag pangocairo-root-14 delete
-tag pangocairo-root-15 delete
-tag pangocairo-root-16 delete
-tag pangocairo-root-17 delete
-tag pangocairo-root-18 delete
-tag pangocairo-root-19 delete
-tag pangocairo-root-2 delete
-tag pangocairo-root-20 delete
-tag pangocairo-root-21 delete
-tag pangocairo-root-22 delete
-tag pangocairo-root-23 delete
-tag pangocairo-root-24 delete
-tag pangocairo-root-25 delete
-tag pangocairo-root-26 delete
-tag pangocairo-root-27 delete
-tag pangocairo-root-28 delete
-tag pangocairo-root-29 delete
-tag pangocairo-root-3 delete
-tag pangocairo-root-30 delete
-tag pangocairo-root-31 delete
-tag pangocairo-root-32 delete
-tag pangocairo-root-33 delete
-tag pangocairo-root-34 delete
-tag pangocairo-root-35 delete
-tag pangocairo-root-36 delete
-tag pangocairo-root-37 delete
-tag pangocairo-root-38 delete
-tag pangocairo-root-39 delete
-tag pangocairo-root-4 delete
-tag pangocairo-root-40 delete
-tag pangocairo-root-41 delete
-tag pangocairo-root-42 delete
-tag pangocairo-root-43 delete
-tag pangocairo-root-44 delete
-tag pangocairo-root-45 delete
-tag pangocairo-root-5 delete
-tag pangocairo-root-6 delete
-tag pangocairo-root-7 delete
-tag pangocairo-root-8 delete
-tag pangocairo-root-9 delete
+branch pangocairo-post-merge delete
+branch pangocairo-pre-merge delete
+branch pangocairo-root delete
+branch pangocairo-root-10 delete
+branch pangocairo-root-11 delete
+branch pangocairo-root-12 delete
+branch pangocairo-root-13 delete
+branch pangocairo-root-14 delete
+branch pangocairo-root-15 delete
+branch pangocairo-root-16 delete
+branch pangocairo-root-17 delete
+branch pangocairo-root-18 delete
+branch pangocairo-root-19 delete
+branch pangocairo-root-2 delete
+branch pangocairo-root-20 delete
+branch pangocairo-root-21 delete
+branch pangocairo-root-22 delete
+branch pangocairo-root-23 delete
+branch pangocairo-root-24 delete
+branch pangocairo-root-25 delete
+branch pangocairo-root-26 delete
+branch pangocairo-root-27 delete
+branch pangocairo-root-28 delete
+branch pangocairo-root-29 delete
+branch pangocairo-root-3 delete
+branch pangocairo-root-30 delete
+branch pangocairo-root-31 delete
+branch pangocairo-root-32 delete
+branch pangocairo-root-33 delete
+branch pangocairo-root-34 delete
+branch pangocairo-root-35 delete
+branch pangocairo-root-36 delete
+branch pangocairo-root-37 delete
+branch pangocairo-root-38 delete
+branch pangocairo-root-39 delete
+branch pangocairo-root-4 delete
+branch pangocairo-root-40 delete
+branch pangocairo-root-41 delete
+branch pangocairo-root-42 delete
+branch pangocairo-root-43 delete
+branch pangocairo-root-44 delete
+branch pangocairo-root-45 delete
+branch pangocairo-root-5 delete
+branch pangocairo-root-6 delete
+branch pangocairo-root-7 delete
+branch pangocairo-root-8 delete
+branch pangocairo-root-9 delete
 
 # Release tags
-# tag release_0_5_0 delete
-# tag release_0_5_0a delete
-# tag release_0_5_1 delete
-# tag release_0_5_2 delete
-# tag release_0_5_3 delete
-# tag release_0_5_4 delete
-# tag release_0_6_0 delete
-# tag release_0_6_1 delete
-# tag release_0_6_2 delete
-# tag release_0_6_3 delete
-# tag release_0_6_4 delete
-# tag release_0_7_0 delete
-# tag release_0_7_1 delete
-# tag release_0_7_2 delete
-# tag release_0_7_2_1 delete
-# tag release_0_8_0 delete
-# tag release_0_8_1 delete
-# tag release_0_8_1_1 delete
-# tag release_0_9_0 delete
-# tag release_0_9_0_1 delete
-# tag release_0_9_0_2 delete
-# tag release_0_9_0_3 delete
+branch release_0_5_0 delete
+branch release_0_5_0a delete
+branch release_0_5_1 delete
+branch release_0_5_2 delete
+branch release_0_5_3 delete
+branch release_0_5_4 delete
+branch release_0_6_0 delete
+branch release_0_6_1 delete
+branch release_0_6_2 delete
+branch release_0_6_3 delete
+branch release_0_6_4 delete
+branch release_0_7_0 delete
+branch release_0_7_1 delete
+branch release_0_7_2 delete
+branch release_0_7_2_1 delete
+branch release_0_8_0 delete
+branch release_0_8_1 delete
+branch release_0_8_1_1 delete
+branch release_0_9_0 delete
+branch release_0_9_0_1 delete
+branch release_0_9_0_2 delete
+branch release_0_9_0_3 delete
 
 # buildfink tags
-# tag buildfink_2008_07_28 delete
-# tag buildfink_2008_09_18 delete
+branch buildfink_2008_07_28 delete
+branch buildfink_2008_09_18 delete
