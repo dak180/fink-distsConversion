@@ -1,4 +1,5 @@
 fink-mirror/
+fink.ex-mirror/
 fink-git/
 fink-checkout/
 *.fi
